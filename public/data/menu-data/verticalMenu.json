@@ -1,0 +1,105 @@
+{
+    "menu": [{
+            "url": "admin/dashboards",
+            "name": "Dashboards",
+            "icon": "pie-chart",
+            "slug": "admin.dashboards.index"
+        },
+
+        {
+            "navheader": "Administrator",
+            "slug": ""
+        },
+        {
+            "url": "admin/staff",
+            "name": "Staff",
+            "icon": "github",
+            "slug": "admin.staff.index"
+        },
+        {
+            "navheader": "Management",
+            "slug": ""
+        },
+        {
+            "url": "admin/filters",
+            "name": "Filters",
+            "icon": "filter",
+            "slug": "admin.filters.index"
+        },
+        {
+            "url": "admin/categories",
+            "name": "Categories",
+            "icon": "grid",
+            "slug": "admin.categories.index"
+        },
+        {
+            "url": "admin/products",
+            "name": "Products",
+            "icon": "box",
+            "slug": "admin.products.index"
+        },
+
+        {
+            "navheader": "Customer and Order",
+            "slug": ""
+        },
+        {
+            "url": "admin/customers",
+            "name": "Customers",
+            "icon": "user",
+            "slug": "admin.customers.index"
+        },
+        {
+            "url": "admin/orders",
+            "name": "Orders",
+            "icon": "shopping-cart",
+            "slug": "admin.orders.index"
+        },
+        {
+            "navheader": "Marketing",
+            "slug": ""
+        },
+        {
+            "url": "admin/slideshows",
+            "name": "Slideshows",
+            "icon": "monitor",
+            "slug": "admin.slideshows.index"
+        },
+        {
+            "url": "admin/tags",
+            "name": "Tags",
+            "icon": "hash",
+            "slug": "admin.tags.index"
+        },
+        {
+            "url": "admin/blogs",
+            "name": "Blogs",
+            "icon": "book-open",
+            "slug": "admin.blogs.index"
+        },
+        {
+            "url": "admin/contact-us",
+            "name": "Contact Us",
+            "icon": "phone",
+            "slug": "admin.contactUs.index"
+        },
+        {
+            "url": "admin/information",
+            "name": "Information",
+            "icon": "info",
+            "slug": "admin.information.index"
+        },
+        {
+            "url": "admin/coupons",
+            "name": "Coupons",
+            "icon": "gift",
+            "slug": "admin.coupons.index"
+        },
+        {
+            "url": "admin/emails",
+            "name": "Emails",
+            "icon": "mail",
+            "slug": "admin.emails.index"
+        }
+    ]
+}
