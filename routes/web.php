@@ -218,7 +218,7 @@ use Illuminate\Support\Facades\Route;
 
     Route::get('/orders/print/{code}/{email}/{type}', [
         'as' => 'guest.orders.print',
-        'uses' => 'guest\OrdersController@print'
+        'uses' => 'Guest\OrdersController@print'
     ]);
 
     // Blogs
