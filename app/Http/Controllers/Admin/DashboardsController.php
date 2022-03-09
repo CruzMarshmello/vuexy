@@ -10,7 +10,7 @@ use Analytics;
 use Spatie\Analytics\Period;
 
 use App\Models\Category;
-use App\models\Product;
+use App\Models\Product;
 use App\Models\User;
 use App\Models\Order;
 
