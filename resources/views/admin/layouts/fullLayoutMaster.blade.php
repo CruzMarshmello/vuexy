@@ -16,7 +16,7 @@ class="{{ ($configData['theme'] === 'light') ? '' : $configData['layoutTheme'] }
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>@yield('title') - Vuexy</title>
-    <link rel="shortcut icon" type="image/x-icon" href="{{asset('images/logo/favicon.ico')}}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{asset('images/ico/favicon.ico')}}">
 
     @include('admin.panels.styles')
     @include('admin.panels.styles')

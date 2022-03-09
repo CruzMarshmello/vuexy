@@ -87,7 +87,7 @@
                     <table class="sm-w-full" style="font-family: 'Montserrat',Arial,sans-serif; width: 600px;" width="600" cellpadding="0" cellspacing="0" role="presentation">
                         <tr>
                             <td class="sm-py-32 sm-px-24" style="font-family: Montserrat, -apple-system, 'Segoe UI', sans-serif; padding: 48px; text-align: center;" align="center">
-                                <a href="{{ asset('images/logo.png'); }}">
+                                <a href="{{ asset('images/logo/logo.png'); }}">
                                     <img src="images/logo.png" width="155" alt="Vuexy Admin" style="border: 0; max-width: 100%; line-height: 100%; vertical-align: middle;">
                                 </a>
                             </td>
