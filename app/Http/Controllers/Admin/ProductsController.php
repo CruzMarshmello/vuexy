@@ -488,13 +488,16 @@ class ProductsController extends Controller
             $product->filters()->detach();
         }
 
+        // dd($request->paths);
+
         if (is_array($request->paths)) {
+            $id = [];
             foreach ($request->paths as $key => $path) {
                 $productImage = ProductImage::where('path', $path)->first();
                 $productImage->product_id = $product->id;
                 $productImage->save();
 
-                $id[] = $productImage->id;
+                array_push($id, $productImage->id);
             }
 
             $productImages = ProductImage::whereNotIn('id', $id)
