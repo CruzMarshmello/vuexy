@@ -20,6 +20,8 @@ class CreateUsersTable extends Migration
             $table->timestamp('email_verified_at')->nullable();
             $table->string('profile_picture')->nullable();
             $table->string('password');
+            $table->string('facebook_id')->nullable();
+            $table->string('google_id')->nullable();
             $table->enum('role', ['Admin','User'])->default('User');
             $table->enum('status', ['Active','Blocked','Deactivated'])->default('Active');
             $table->rememberToken();

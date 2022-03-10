@@ -80,13 +80,13 @@
                         </div>
 
                         <div class="col-12 mt-1">
-                            <a class="btn btn-block btn-primary">
+                            <a class="btn btn-block btn-primary" href="{{ route('guest.socialites.redirect', ['provider' => 'facebook']) }}">
                                 <i data-feather="facebook" class="mr-25"></i>
                                 <span>Facebook</span>
                             </a>
                         </div>
                         <div class="col-12 mt-1">
-                            <a class="btn btn-block btn-danger">
+                            <a class="btn btn-block btn-danger" href="{{ route('guest.socialites.redirect', ['provider' => 'google']) }}">
                                 <span class="mr-25">G</span>
                                 <span>Google</span>
                             </a>

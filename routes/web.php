@@ -7,6 +7,15 @@ use Illuminate\Support\Facades\Route;
 | Web Routes (Guest)
 |--------------------------------------------------------------------------
 */
+    Route::get('/socialites/{provider}/redirect', [
+        'as' => 'guest.socialites.redirect',
+        'uses' => 'Guest\SocialitesController@redirect'
+    ]);
+
+    Route::get('/socialites/{provider}/callback', [
+        'as' => 'guest.socialites.callback',
+        'uses' => 'Guest\SocialitesController@callback'
+    ]);
 
     Route::get('/', [
         'as' => 'guest.homes.index',
