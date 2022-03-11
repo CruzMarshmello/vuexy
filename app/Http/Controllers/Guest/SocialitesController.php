@@ -70,6 +70,6 @@ class SocialitesController extends Controller
 
         Auth::login($user);
 
-        return redirect()->route('/');
+        return redirect()->route('guest.homes.index');
     }
 }
