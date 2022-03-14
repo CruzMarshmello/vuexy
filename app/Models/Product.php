@@ -16,7 +16,7 @@ class Product extends Model
 
     public function children()
     {
-        return $this->hasMany('App\Models\Product', 'parent_id');
+        return $this->hasMany('App\Models\Product', 'parent_id')->orderBy('id', 'asc');
     }
 
     /* Relationship ProductLocale */
