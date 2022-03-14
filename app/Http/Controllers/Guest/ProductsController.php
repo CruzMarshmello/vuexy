@@ -87,7 +87,7 @@ class ProductsController extends Controller
 
             $output .= '<div class="card ecommerce-card">
                         <div class="item-img text-center">
-                        <a href="">
+                        <a href="'.route('guest.products.show', ['slug' => $product->locale(session()->get('locale'))->slug]).'">
                         <img class="img-fluid card-img-top" src="'.$image.'" alt="'.$product->locale(session()->get('locale'))->name.'" /></a>
                         </div>
                         <div class="card-body">
