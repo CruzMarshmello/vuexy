@@ -86,8 +86,9 @@ class HomesController extends Controller
 
             $output .= '<div class="card ecommerce-card">
                         <div class="item-img text-center">
-                        <a href="">
-                        <img class="img-fluid card-img-top" src="'.$image.'" alt="'.$product->locale(session()->get('locale'))->name.'" /></a>
+                        <a href="'.route('guest.products.show', ['slug' => $product->locale(session()->get('locale'))->slug]).'">
+                        <img class="img-fluid card-img-top" src="'.$image.'" alt="'.$product->locale(session()->get('locale'))->name.'" />
+                        </a>
                         </div>
                         <div class="card-body">
                         <div class="item-wrapper">

@@ -268,6 +268,10 @@
                             <img src="{{asset('images/icons/microsoft-edge.png')}}" class="rounded mr-1" height="30" alt="Opera Mini" />
                             @elseif ($browser['name'] == 'Opera')
                             <img src="{{asset('images/icons/opera.png')}}" class="rounded mr-1" height="30" alt="Opera Mini" />
+                            @elseif ($browser['name'] == 'Safari (in-app)')
+                            <img src="{{asset('images/icons/safari-in-app.png')}}" class="rounded mr-1" height="30" alt="Safari (in-app)" />
+                            @elseif ($browser['name'] == 'Android Webview')
+                            <img src="{{asset('images/icons/android-webview.png')}}" class="rounded mr-1" height="30" alt="Android Webview" />
                             @else
                             <img src="{{asset('images/icons/internet.png')}}" class="rounded mr-1" height="30" alt="Google Chrome" />
                             @endif
